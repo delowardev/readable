@@ -1,5 +1,5 @@
 .login-page {
-  background-color: var(--bg-color);
+  background-color: var(--dark-bg-color);
 
   .login-bg {
     height: 100vh;
@@ -10,5 +10,25 @@
   .login-form {
     width: 500px;
     height: 100vh;
+    color: #fff;
+    padding: 40px 50px;
+
+    .input-wrap {
+      margin-bottom: 20px;
+
+      input:not([type="submit"]) {
+        height: 50px;
+        width: 100%;
+        background: transparent;
+        border: 1px solid rgba(#fff, .1);
+        padding: 0 15px;
+        outline: none;
+        border-radius: 4px;
+
+        &:focus {
+          border: 1px solid var(--primary-color);
+        }
+      }
+    }
   }
 }
