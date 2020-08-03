@@ -1,0 +1,14 @@
+.login-page {
+  background-color: var(--bg-color);
+
+  .login-bg {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .login-form {
+    width: 500px;
+    height: 100vh;
+  }
+}

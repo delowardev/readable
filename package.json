@@ -10,6 +10,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "firebase": "^7.17.1",
     "next": "^9.4.2",
     "next-redux-wrapper": "^6.0.2",
     "react": "^16.13.1",
@@ -30,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.0.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.4",
+    "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "typescript": "^3.9.3"
   },
