@@ -5,9 +5,8 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const _handleOnEmail = (event: InputEvent) => {
-    const target = event.currentTarget as HTMLInputElement;
-    setEmail(target.value);
+  const _handleOnEmail = (event) => {
+    setEmail(event.target.value);
   };
 
   return (

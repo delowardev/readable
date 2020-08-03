@@ -1,7 +1,6 @@
-import { NextPage } from "next";
 import Head from "next/head";
 
-const IndexPage: NextPage = () => (
+const IndexPage = () => (
   <div>
     <Head>
       <title>Readable - Online eBook Reader</title>

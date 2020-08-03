@@ -1,11 +1,10 @@
-import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/normalize.css";
 import "../styles/bootstrap-grid.css";
 import "../styles/scss/index.scss";
 import { Fragment } from "react";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
